@@ -1,6 +1,6 @@
 const convert = require('./convert')
 test('converts 100 INR to USD correctly', () => {
- expect(convert(123)).toBe('1.20');
+ expect(convert(100)).toBe('1.20');
 });
 test('converts 0 INR to USD', () => {
  expect(convert(0)).toBe('0.00');
