@@ -39,5 +39,5 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t glarimy/sasi-converter:latest .
-          docker push glarimy/sasi-converter:latest
+          docker build -t converterimg:latest .
+          docker push converterimg:latest
