@@ -34,5 +34,5 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t sudheer6131/converter-img:latest .
-          docker push sudheer6131/converter-img:latest
+          docker build -t sudheer6131/converter:latest .
+          docker push sudheer6131/converter:latest
